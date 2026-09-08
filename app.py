@@ -34,9 +34,9 @@ st.set_page_config(
 )
 
 GROQ_MODELS = [
-    "llama-3.1-8b-instant",
-    "llama-3.3-70b-versatile",
-    "gemma2-9b-it",
+    "whisper-large-v3",
+    "openai/gpt-oss-20b",
+    "openai/gpt-oss-120b",
 ]
 
 # ---------------------------------------------------------------------------
@@ -64,7 +64,7 @@ with st.sidebar:
     st.title("💊 AI Pharmacy")
     st.caption("RAG assistant over your own pharmacy documents")
 
-    st.subheader("1. Groq API Key")
+    st.subheader("1. Groq_API_Key")
     default_key = st.secrets.get("GROQ_API_KEY", "") if hasattr(st, "secrets") else ""
     groq_api_key = st.text_input(
         "Groq API key",
