@@ -3,6 +3,7 @@ pypdf
 langchain
 langchain-community
 langchain-groq
+langchain-text-splitters
 langchain-huggingface
 sentence-transformers
 faiss-cpu==1.15.0
