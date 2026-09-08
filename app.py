@@ -34,9 +34,8 @@ st.set_page_config(
 )
 
 GROQ_MODELS = [
-    "whisper-large-v3",
-    "openai/gpt-oss-20b",
     "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
 ]
 
 # ---------------------------------------------------------------------------
