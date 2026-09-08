@@ -1,6 +1,7 @@
 streamlit
 pypdf
 langchain
+langchain-classic
 langchain-community
 langchain-groq
 langchain-text-splitters
